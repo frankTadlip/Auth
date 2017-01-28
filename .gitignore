@@ -1,0 +1,7 @@
+
+#3rdpartyLibrary#
+/node_modules
+/.vscode
+
+#cssStyles
+*css
