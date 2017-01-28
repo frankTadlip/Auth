@@ -1,5 +1,77 @@
+/*================
+   VARIABLES
+================*/
+
+/* Screen size */
+@screen-xs-min:                         320px;
+@screen-xs-max:                         767px;
+@screen-sm-min:                         768px;
+@screen-sm-max:                         991px;
+@screen-md-min:                         992px;
+@screen-md-max:                         1199px;
+@screen-lg-min:                         1200px;
+
+// BODY BACKGROUND //
+@color-body-bg:                       #F2F2F2;
+
+@white:                               #fff;
+@black:                               #000;
+
+// TEXT COLOR
+@textColor:                             @gray-dark;
+
+// Gray Color
+@gray-base:                             @black;
+@gray-darker:                           lighten(@gray-base, 13.5%); // #222
+@gray-dark:                             lighten(@gray-base, 20%);   // #333
+@gray:                                  lighten(@gray-base, 33.5%); // #555
+@gray-light:                            lighten(@gray-base, 46.7%); // #777
+@gray-lighter:                          lighten(@gray-base, 93.5%); // #eee
+
+// COLOR SCHEME //
+@accentColor:                         #0071BC; 
+@accentColor-Dark:                      darken(@accentColor,5.5%);
+@accentColor-Light:                     lighten(@accentColor,10%);
+
+@primary-dark:                          darken(@primary,10%);
+@primary:                             #2c3e50;
+@primary-light:                         lighten(@primary,10%);
+
+@info-dark:                             darken(@info, 10%);
+@info:                                #418AC9;
+@info-light:                            lighten(@info, 10%);
+
+@success-dark:                          darken(@success, 10%);
+@success:                             #25B89A;
+@success-light:                         lighten(@success, 10%);
+
+@warning-dark:                          darken(@warning, 10%);
+@warning:                             #F5AB35;
+@warning-light:                         lighten(@warning, 10%);
+
+@danger-dark:                           darken(@danger, 10%);
+@danger:                              #D91E18;
+@danger-light:                          lighten(@danger, 10%);
+
+@default-dark:                          darken(@default, 10%);
+@default:                             #94A4A5;
+@default-light:                         lighten(@default, 10%);
+
+// BRAND COLORS
+@brand-success:                       #5cb85c;
+@brand-info:                          #5bc0de;
+@brand-warning:                       #f0ad4e;
+@brand-danger:                        #d9534f;
 
 
-/* VARIABLES */
+// SIDEBAR
 
-@textColor: #333;
+@sidebar-color:                       #2D343C;
+@sidebar-dark:                          darken(@sidebar-color, 5.5%);
+@sidebar-light:                         lighten(@sidebar-color, 8%);
+
+// CUSTOM COLOR
+@whiteGray:                           #F5F6FA; // bgbackground
+@lightBlue:                           #EAF1FE;  // tableHeader
+@lightBlue-Dark:                        darken(@lightBlue, 5%);
+@lightBlue-light:                       lighten(@lightBlue, 5%);
