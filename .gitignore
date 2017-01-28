@@ -1,4 +1,7 @@
 
+#deploymentFolder 
+/dist
+
 #3rdpartyLibrary#
 /node_modules
 /.vscode
